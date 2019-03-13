@@ -285,3 +285,34 @@ kita menggunakan array ***indices*** sebagai pointer. 0,1,2 untuk segitiga perta
 
 gambaran VBO, VAO dan EBO
 !["VBO VAO EBO"](image/ebo.png)
+
+## **Texture**
+untuk menambahkan tekstur kita langsung menambahkan array kedalam array vertex. hanya 2 koordinat yang berupa X dan Y.
+
+```C
+float vertices[] = {
+    //posisi              //warna             //tekstur
+     0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,   1.0f, 1.0f,   
+     0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f,   1.0f, 0.0f,   
+    -0.5f, -0.5f, 0.0f,   0.0f, 0.0f, 1.0f,   0.0f, 0.0f,   
+    -0.5f,  0.5f, 0.0f,   1.0f, 1.0f, 0.0f,   0.0f, 1.0f    
+};
+```
+
+karena kita menambahkan atribut vertex baru (tekstur) maka VBO terlihat seprti berikut
+![vbo2](image/vbo2.png)
+
+# **GAME GRAPHIC PT.3**
+part 2 skip. karena dikit.
+part 3 berisi soal transformasi, trasnlasi, scaling.
+
+>Dalam OpenGL kita melakukan secara terbalik/reversed dengan apa yang kita inginkan.
+
+>Dalam OpenGl urutan operasi (transform, scale, rotate) mempengaruhi hasil.
+
+`rotasi -> translasi`
+berbeda dengan 
+`translasi -> rotasi`
+![transform](image/transform.png)
+
+translasi, transform, scaling. di learnOpenGL.
