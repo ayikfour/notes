@@ -60,4 +60,8 @@ dan dari nilai yang lahir dari peradaban modern.
 perlu keseimbangan. mempertahankan nilai sosial lama bukan berarti konservatif dan sebaliknya.
 
 #### 3. NILAI ESTETIKA
+>menggambarkan keindahan dari suatu bentuk kesenian atau karya seni.
 
+1. penyelidikan mengenai yang-indah
+2. penyelidikan mengenai prinsip-prinsip yang mendasari seni
+3. pengalaman yang bertalian dengan seni, masalah penciptaan seni, penilaian terhadap seni 
